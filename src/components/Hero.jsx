@@ -23,8 +23,8 @@ const Hero = () => {
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <h1 className="h1 mb-6">
             Explore the Potential of&nbsp;AI&nbsp;Detection with {` `}
-            <span className="inline-block relative">
-              Scyber{" "}
+            <span className="text-purple-400 inline-block relative">
+              Skira{" "}
               <img
                 src={line}
                 className="absolute top-11 left-5 w-full xl:-mt-2"
@@ -35,19 +35,19 @@ const Hero = () => {
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-            Unleash the power of AI within Scyber. Secure your application
-            with Scyber, the open AI detection tool.
+            Unleash the power of AI within Skira. Secure your application
+            with Skira, the open AI detection tool.
           </p>
-          <Button href="/pricing" white>
+          <Button href="/" white>
             Get started
           </Button>
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
-          <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient">
+          <div className="relative z-1 p-0.5 rounded-2xl">
             <div className="relative bg-n-8 rounded-[1rem]">
-              <div className="h-[1.4rem] bg-n-10 rounded-t-[0.9rem]" />
+              <div className="h-[1.4rem] bg-zinc-900 rounded-t-[0.9rem]" />
 
-              <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
+              <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/450]">
                 <img
                   src={background1}
                   className="w-full scale-[1.7] translate-y-[8%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[23%]"
@@ -71,7 +71,7 @@ const Hero = () => {
                 <ScrollParallax isAbsolutelyPositioned>
                   <Notification
                     className="hidden absolute -right-[5.5rem] bottom-[11rem] w-[18rem] xl:flex"
-                    title="Code generation"
+                    title="New post"
                   />
                 </ScrollParallax>
               </div>

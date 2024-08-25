@@ -46,31 +46,19 @@ import {
 export const navigation = [
   {
     id: "0",
+    title: "Home",
+    url: "#hero",
+  },
+  {
+    id: "1",
     title: "Features",
     url: "#features",
   },
   {
-    id: "1",
+    id: "2",
     title: "How to use",
     url: "#how-to-use",
-  },
-  {
-    id: "2",
-    title: "Roadmap",
-    url: "#roadmap",
-  },
-  {
-    id: "3",
-    title: "New account",
-    url: "#signup",
-    onlyMobile: true,
-  },
-  {
-    id: "4",
-    title: "Sign in",
-    url: "#login",
-    onlyMobile: true,
-  },
+  }
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
@@ -80,9 +68,9 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  "Examine Code",
+  "Github Upload",
+  "Give Solutions",
 ];
 
 export const brainwaveServicesIcons = [

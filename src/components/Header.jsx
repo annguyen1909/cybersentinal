@@ -1,7 +1,7 @@
 import { useLocation } from "react-router-dom";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
 
-import { scyber } from "../assets";
+import { skira } from "../assets";
 import { navigation } from "../constants";
 import Button from "./Button";
 import MenuSvg from "../assets/svg/MenuSvg";
@@ -37,7 +37,7 @@ const Header = () => {
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
         <a className="block w-[12rem] xl:mr-8" href="#hero">
-          <img src={scyber} width={120} height={40} alt="Brainwave" />
+          <img src={skira} width={120} height={40} alt="Brainwave" />
         </a>
 
         <nav
@@ -66,7 +66,7 @@ const Header = () => {
 
           <HamburgerMenu />
         </nav>
-        <Button className="hidden lg:flex" href="#login">
+        <Button className="hidden lg:flex" href="/">
           Explore
         </Button>
 

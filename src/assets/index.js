@@ -1,5 +1,6 @@
 import brainwave from "./brainwave.svg";
 import scyber from "./scyber.png";
+import skira from "./skira.png";
 import check from "./check.svg";
 import brainwaveSymbol from "./brainwave-symbol.svg";
 import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
@@ -91,6 +92,7 @@ export {
   heroBackground1,
   background1,
   line,
+  skira,
   scyber,
   brainwave,
   check,
