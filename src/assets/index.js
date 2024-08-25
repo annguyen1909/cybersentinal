@@ -1,4 +1,5 @@
 import brainwave from "./brainwave.svg";
+import scyber from "./scyber.png";
 import check from "./check.svg";
 import brainwaveSymbol from "./brainwave-symbol.svg";
 import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
@@ -20,10 +21,14 @@ import chromecast from "./chrome-cast.svg";
 import sliders04 from "./sliders-04.svg";
 import loading from "./loading.png";
 import background from "./background.jpg";
+import background1 from "./background.png";
+
 
 import curve from "./hero/curve.png";
+import line from "./hero/line.png";
 import robot from "./hero/robot.jpg";
 import heroBackground from "./hero/hero-background.jpg";
+import heroBackground1 from "./hero/heroBackground.png";
 
 import curve1 from "./collaboration/curve-1.svg";
 import curve2 from "./collaboration/curve-2.svg";
@@ -67,7 +72,14 @@ import benefitIcon1 from "./benefits/icon-1.svg";
 import benefitIcon2 from "./benefits/icon-2.svg";
 import benefitIcon3 from "./benefits/icon-3.svg";
 import benefitIcon4 from "./benefits/icon-4.svg";
+import benefitIcon5 from "./benefits/icon-5.svg";
+import benefitIcon6 from "./benefits/icon-6.svg";
+import benefitImage1 from "./benefits/image-1.png";
 import benefitImage2 from "./benefits/image-2.png";
+import benefitImage3 from "./benefits/image-3.png";
+import benefitImage4 from "./benefits/image-4.png";
+import benefitImage5 from "./benefits/image-5.png";
+import benefitImage6 from "./benefits/image-6.png";
 
 import discordBlack from "./socials/discord.svg";
 import facebook from "./socials/facebook.svg";
@@ -76,6 +88,10 @@ import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
 export {
+  heroBackground1,
+  background1,
+  line,
+  scyber,
   brainwave,
   check,
   check2,
@@ -138,7 +154,14 @@ export {
   benefitIcon2,
   benefitIcon3,
   benefitIcon4,
+  benefitIcon5,
+  benefitIcon6,
+  benefitImage1,
   benefitImage2,
+  benefitImage3,
+  benefitImage4,
+  benefitImage5,
+  benefitImage6,
   discordBlack,
   facebook,
   instagram,
