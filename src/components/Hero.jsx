@@ -38,7 +38,7 @@ const Hero = () => {
             Unleash the power of AI within Skira. Secure your application
             with Skira, the open AI detection tool.
           </p>
-          <Button href="/" white>
+          <Button href="/soon" white>
             Get started
           </Button>
         </div>
