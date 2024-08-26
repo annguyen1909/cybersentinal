@@ -36,8 +36,8 @@ const Header = () => {
       }`}
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
-        <a className="block w-[12rem] xl:mr-8" href="#hero">
-          <img src={skira} width={120} height={40} alt="Brainwave" />
+        <a className="block w-[12rem] xl:mr-8" href="/#hero">
+          <img src={skira} width={120} height={40} alt="Skira" />
         </a>
 
         <nav
@@ -66,7 +66,7 @@ const Header = () => {
 
           <HamburgerMenu />
         </nav>
-        <Button className="hidden lg:flex" href="/">
+        <Button className="hidden lg:flex" href="/soon">
           Explore
         </Button>
 

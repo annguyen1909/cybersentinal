@@ -1,11 +1,9 @@
 import Section from "./Section";
 import Heading from "./Heading";
 import { service1, service2, service3, check } from "../assets";
-import { brainwaveServices, brainwaveServicesIcons } from "../constants";
+import { brainwaveServices } from "../constants";
 import {
   PhotoChatMessage,
-  Gradient,
-  VideoBar,
   VideoChatMessage,
   VideoChatMessage2,
   VideoChatMessage3,
@@ -70,8 +68,7 @@ const Services = () => {
               <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
                 <h4 className="h4 mb-4">Chat System</h4>
                 <p className="body-2 mb-[3rem] text-n-3">
-                  Automatically enhance your photos using our AI app&apos;s
-                  photo editing feature. Try it now!
+                  Chat with the AI to ask for amazing services. Try it now!
                 </p>
               </div>
 

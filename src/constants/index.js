@@ -47,17 +47,17 @@ export const navigation = [
   {
     id: "0",
     title: "Home",
-    url: "#hero",
+    url: "/#hero",
   },
   {
     id: "1",
     title: "Features",
-    url: "#features",
+    url: "/#features",
   },
   {
     id: "2",
     title: "How to use",
-    url: "#how-to-use",
+    url: "/#how-to-use",
   }
 ];
 
